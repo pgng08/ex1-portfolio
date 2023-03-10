@@ -29,10 +29,5 @@ class PortfolioController extends Controller
     public function formContact(Request $request)
     {
         return view("contact", ["data" => $request]);
-        
-        // debug:
-        //return $request->name;
-        //return "ok...";
-        //return print_r($_POST);
     }
 }
